@@ -1,0 +1,59 @@
+///description.ext///
+
+
+#include "defines.hpp"
+#include "dialogs.hpp"
+
+respawn = "BASE";
+respawnOnStart = 1;
+respawnDelay = 5;
+
+class Params
+{
+
+class CPpointsAmount
+	{
+		title = "How many points does a side need to win?";
+		values[] = {10,20,30,40,50,60,70,80,90,100};
+		default = 20;
+		isGlobal = 0;
+		
+	};
+
+
+class TicketsAmount
+	{
+		title = "How many spawn tickets will each side have?";
+		values[] = {10,20,30,40,50,60,70,80,90,100};
+		default = 50;
+		isGlobal = 0;
+		
+	};
+
+class SpawnLimit
+	{
+		title = "How many units can spawn per side";
+		values[] = {10,20,30,40,50};
+		default = 20;
+		isGlobal = 0;
+		
+	};
+	
+	class AllowSideChange
+	{
+		title = "Allow Players to change sides during mission";
+		values[] = {0,1};
+		texts[] = {"No","Yes"};
+		default = 1;
+		isGlobal = 0;
+		
+	};
+	
+	
+	};
+	
+	
+	
+	
+	
+	
